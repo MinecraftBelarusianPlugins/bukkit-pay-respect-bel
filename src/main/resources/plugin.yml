@@ -1,0 +1,13 @@
+name: PayRespects
+version: '${project.version}'
+main: space.sanc.payrespects.PayRespectsPlugin
+api-version: 1.19
+authors: [ Sancires ]
+description: Type /f to pay respects.
+website: sanc.space
+commands:
+  f:
+    description: Type /f to pay respects.
+    usage: /f
+    default: true
+    permission: payrespects.f
