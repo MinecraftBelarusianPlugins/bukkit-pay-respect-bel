@@ -16,9 +16,9 @@ public class FCommand implements CommandExecutor {
 	                         @NotNull  String[] args) {
 		if (sender instanceof Player) {
 			String player = sender.getName();
-			Bukkit.getServer().broadcastMessage(player + " has paid respects.");
+			Bukkit.getServer().broadcastMessage(player + " аддаў чэсць.");
 		} else {
-			sender.sendMessage("This command is for players only.");
+			sender.sendMessage("Гэтая каманда толькі для гульцоў.");
 		}
 		return true;
 	}
